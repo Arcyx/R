@@ -6,6 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -20,6 +22,10 @@
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
+  
+  <!-- Slider CSS Files -->
+  <link rel="stylesheet" href="css/my-slider.css"/>
+  <script src="js/ism-2.2.min.js"></script>
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -40,6 +46,17 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
+	  	  <a target="_blank" href="https://www.facebook.com/junepowersutton/" style="font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;"class="facebook"><i class="fa fa-facebook"></i></a>
 		  <a href="mailto:junepower@sutton" style="font-family:poppins;color:white;padding-left:1em">junepower@sutton</a>
 		  <a href="tel:+12263764437" style="font-family:poppins;color:white;padding-left:1em">226 376 4437</a>
       </div>
@@ -48,7 +65,10 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">About Me</a></li>
-          <li><a href="#testimonialsShort">Testimonials</a></li>
+		   <li><a href="buying.html">Buying</a></li>
+		    <li><a href="selling.html">Selling</a></li>
+		  <li><a href="#about">Recommended Vendors</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -58,17 +78,22 @@
   <!--==========================
     Hero Section
   ============================-->
-  <section id="hero">
-    <div class="hero-container">
-	  <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+	<ul class="cb-slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div><</div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></div></li>
+        </ul>
+		  <section id="hero">
+    <div class="splashText">
       <h1>June Power</h1>
-      <h2>Honesty, Integrity and Experience on your side</h2>
+      <h2>Honesty & Experience on your side</h2>
       <a href="#about" class="btn-get-started">See what I offer</a>
-    </div>
-  </section><!-- #hero -->
+	  </div>
+	  </div>
+	  </section>
 
   <main id="main">
-
     <!--==========================
       About Us Section
     ============================-->
@@ -77,34 +102,57 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">About Me</h2>
+            <h2 class="title">Working with Me</h2>
             <p>
-              
+              <img src="img/photoTemp.jpg" width="500px"></img>
             </p>
 
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Honesty</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p class="description">I pride myself on the trust I build with my clients. I do everything I can to ensure that you make a decision that works for you, not for me.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Integrity</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Determination</a></h4>
+              <p class="description">I will not stop until we get you want, no matter how long it takes. </p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Experience</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <p class="description">I have worked for years in the London area market as real estate agent and will pass on everything I've learned so that you are as well informed as anyone in the market.</p>
             </div>
 
           </div>
+		  <div class="facebookFeed" style="-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.3);border: 1px solid lightgrey;">
+		  <div class="facebookHeader" style="height:2.5em;background:#e13544;justify-content: center;display: flex;color:white;align-items: center;font-size:1.5em">
+		  June's Facebook
+		  </div>
+                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjunepowersutton%2F&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=32988432754" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+       		<div class="facebookFooter" style="display: flex;padding: 1em;height: 12em;flex-direction: column;justify-content: space-between;">
 
-                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjunepowersutton%2F&tabs=timeline&width=400&height=600&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=32988432754" width="360" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-        </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                181 Commissioners Road West<br>London, ON, N6J1X9
+              </div>
 
+              <div>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:junepower@sutton.com">junepower@sutton.com</a>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <a href="tel:+12263764437">226 376 4437</a>
+              </div>
+    
+
+       <div class="social-links">
+              <a target="_blank" href="https://www.facebook.com/junepowersutton/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/june-power-b26b9411a/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+		</div>
+	   </div>
       </div>
     </section><!-- #about -->
 
@@ -120,23 +168,23 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-money"></i></a></div>
               <h4 class="title"><a href="">Home Evaluation</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Want to know what your home is worth? I can help by evaluating your home personally and through extension searches of comparable propereties and market analysis.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-camera"></i></a></div>
               <h4 class="title"><a href="">Photography</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <p class="description">I work with you and top notch professional photographers so that everyone appreciates the full beauty of your home.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-signal"></i></a></div>
               <h4 class="title"><a href="">Marketing</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p class="description">I work relentlessly to promote your home locally and beyond through MLS, social media and other realty channels.</p>
             </div>
           </div>
 
@@ -144,21 +192,21 @@
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
               <h4 class="title"><a href="">Staging</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p class="description">Already moved out but want to let everyone know how perfect your home can be? I will make it happen.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-search"></i></a></div>
               <h4 class="title"><a href="">Searching</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">I will not leave any stoned unturned in finding the home that is perfect for you.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa fa-info"></i></a></div>
               <h4 class="title"><a href="">Advice</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p class="description">If you need help with or advice on any real estate related topic I will be there to help.</p>
             </div>
           </div>
         </div>
@@ -178,7 +226,7 @@
 </p><p>Steve & Catherine</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">More Testimonials</a>
+            <a class="cta-btn align-middle" href="testimonials.html">More Testimonials</a>
           </div>
         </div>
 
@@ -220,12 +268,9 @@
               </div>
             </div>
 
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+       <div class="social-links">
+              <a target="_blank" href="https://www.facebook.com/junepowersutton/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/june-power-b26b9411a/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
@@ -269,13 +314,23 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-
+	  <img src="img/realtor.png" alt="realtor.ca"/>
+	  <img src="img/suttonLogo.png" alt="realtor.ca"/>
+     <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+		   <li><a href="#about">Buying</a></li>
+		    <li><a href="#about">Selling</a></li>
+		  <li><a href="#about">Recommended Vendors</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyright <strong>June Power Homes</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -284,7 +339,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
         -->
-        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Sitemap | Website by <a href="https://bootstrapmade.com/">UnspeakableWebDesign</a>
       </div>
     </div>
   </footer><!-- #footer -->
